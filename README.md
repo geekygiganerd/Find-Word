@@ -1,6 +1,7 @@
 # Find-Word
 
 Find-Word is a problem from the [java-tutorial](https://github.com/its-triple-s/java-tutorial) created by [@its-triple-s](https://github.com/its-triple-s).
+
 This java program finds the total number of times a word has appeared in a text file.
 This program takes a command line argument such as `texts/short.txt` indicating the text file it must read. It then takes a word as user input. The program then reads the entire text file to find the total number of occurrences of that word.
 
