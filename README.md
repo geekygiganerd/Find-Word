@@ -10,8 +10,7 @@ This program takes a command line argument such as `texts/short.txt` indicating 
 
 ## Usage
 
-- [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository to create a copy in your account. Visit [java-tutoria/README](https://github.com/its-triple-s/java-tutorial/blob/main/README.md) to see how to fork problem programs.
-You will be prompted to enter a word to search for. The program will then output the total number of occurrences of that word in the text file.
+- Visit [java-tutoria/README](https://github.com/its-triple-s/java-tutorial/blob/main/README.md) to learn how to fork problem programs to solve.
 
 ## Example
 
