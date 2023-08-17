@@ -16,7 +16,7 @@ You have been provided with a few text files in the folder [texts](texts) which 
 
 ## Example
 
-In the text file [longer.txt]https://github.com/geekygiganerd/Find-Word/blob/main/texts/longer.txt) the word **Mary** occurs 2 times.
+In the text file [longer.txt](https://github.com/geekygiganerd/Find-Word/blob/main/texts/longer.txt) the word **Mary** occurs 2 times.
 
 ![find-word-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/27979515-8536-4d9d-8c8a-ba9965f0e095)
 
@@ -26,7 +26,7 @@ So, upon executing the program and finding the word **Mary** in `texts/short.txt
 
 ## How to execute the program?
 
-1. After you have completed your source code in **FindWord.java**, open the terminal in your codespaces by pressing the shortcut &lt;kbd&gt;Ctrl&lt;/kbd&gt; + ``
+1. After you have completed your source code in **FindWord.java**, open the terminal in your codespaces by pressing the shortcut &lt;kbd&gt;Ctrl&lt;/kbd&gt; + `
 
 In the terminal of your codespace, navigate to the directory `Find-Word/` and compile your source code by typing `javac FindWord.java` to create `FindWord.class`.
 
