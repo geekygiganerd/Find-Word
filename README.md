@@ -5,6 +5,12 @@ Find-Word is a problem from the [java-tutorial](https://github.com/its-triple-s/
 This java program finds the total number of times a word has appeared in a text file.
 This program takes a command line argument such as `texts/short.txt` indicating the text file it must read. It then takes a word as user input. The program then reads the entire text file to find the total number of occurrences of that word.
 
+This problem has been designed to help learners develop the logic of:
+- how to skim through Strings
+- use Scanner class to scan File objects
+- implement call by reference
+- utilize command line arguments
+
 ## Description
 
 Find-Word works as a word searching tool for a text file, its nature is similar to the feature we often use in documents to find matching words by pressing **Ctrl + F**. The output of this program should be the total number of times a word has appeared (or occurred) in a text file.
@@ -35,12 +41,26 @@ The entire process can be broken down into 4 simple steps:
 - [Count the occurrences of the word in each line](###count)
 - [Display the output](###Display)
 
+There are 3 methods in the program:
+- void main(String args[])
+- int find(String word, String text)
+- void display(int occurences)
+
 ### Input
+
+The inputs are taken in the `main()` method. The path to the text file must be entered as the first command line argument during program execution. For example
+
+```
+$ java FindWord texts/short.txt
+```
+
+where `short.txt` is the text file in the folder `text`. Since the `main()` method accepts a String array named `args` as parameter, `texts/short.txt` is stored as the first element int the array, i.e. `args[0] = "texts/short,txt"`. The search-word must be entered by the user upon being prompted and stored in the variable `word`.
+
 ### Scan
 ### Count
 ### Display
 
-Complete the TODOs in `FindWord.java`. The main() function is almost complete, you must implement the logic to find 
+You must complete the TODOs in `FindWord.java` and fill up all the `//...`. The main() function is almost complete, you must implement your logic in `find()` method to find the total number of times the `word` has appeared in each line of text and also complete the `display()` method.
 
 ## Usage
 
