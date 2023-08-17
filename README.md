@@ -26,7 +26,7 @@ So, upon executing the program and finding the word **Mary** in `texts/short.txt
 
 ## How to execute the program?
 
-1. After you have completed your source code in **FindWord.java**, open the terminal in your codespaces by pressing the shortcut &lt;kbd&gt;Ctrl&lt;/kbd&gt; + `
+1. After you have completed your source code in **FindWord.java**, open the terminal in your codespaces by pressing the shortcut **Ctrl + `**
 
 In the terminal of your codespace, navigate to the directory `Find-Word/` and compile your source code by typing `javac FindWord.java` to create `FindWord.class`.
 
@@ -37,7 +37,7 @@ $ javac FindWord.java
 ![compile](https://github.com/geekygiganerd/Find-Word/assets/128626253/2d0ab15b-e7c4-4367-8395-5aafc01a23cd)
 
 ```
-Enter a word to search for: ****the****
+Enter a word to search for: **the**
 The word `the` appears 5 times in texts/short.txt.
 ```
 
