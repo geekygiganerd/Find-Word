@@ -27,15 +27,26 @@ So, the program must output 2 as the occurrences for the word 'Mary' in [longer.
 
 ![word-search-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/45d10e41-4927-4dd5-b025-900f18344935)
 
+## How to solve?
+
+The entire process can be broken down into 4 simple steps:
+- [Input the path to text file and the word to be searched](###input)
+- [Scan each line from the text file](###scan)
+- [Count the occurrences of the word in each line](###count)
+- [Display the output](###Display)
+
+### Input
+### Scan
+### Count
+### Display
+
+Complete the TODOs in `FindWord.java`. The main() function is almost complete, you must implement the logic to find 
+
 ## Usage
 
 Fork this repository to create a copy in your GitHub account and write your own source code to solve this problem.
 
 Visit [this link](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork this repository and create a codespace to write your code.
-
-## How to solve?
-
-
 
 ## How to execute the program?
 
@@ -73,7 +84,7 @@ The output for occurrences of the word 'Mary' in [longer.txt](https://github.com
 
 ## Outputs
 
-Below is a list of correct outputs for other text files and words. Your program must produce the same outputs to be correct.
+Below is a list of correct outputs for other text files and words. Your program must produce the same results to be correct.
 
 ## Solution
 
@@ -82,11 +93,11 @@ You will find the solution to this problem [here](https://github.com/its-triple-
 
 ## License
 
-This repository is licensed under the [MIT License](License).
+This repository is licensed under the [MIT License](LICENSE).
 
 ## Contribution
 
-If you wish to make improvements to the problem of this repository, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted in [java-tutorial/solutions/Find-Word](https://github.com/its-triple-s/java-tutorial/tree/main/solutions/Find-Word)
+If you wish to make improvements to the problem of this repository, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted in [here](https://github.com/its-triple-s/java-tutorial/tree/main/solutions/Find-Word)
 
 ## Author
 
