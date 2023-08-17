@@ -1,6 +1,6 @@
 # Find-Word
 
-This program is a problem from the [java-tutorial](https://github.com/its-triple-s/java-tutorial) created by [@its-triple-s](https://github.com/its-triple-s).
+Find-Word is a problem from the [java-tutorial](https://github.com/its-triple-s/java-tutorial) created by [@its-triple-s](https://github.com/its-triple-s).
 This java program finds the total number of times a word has appeared in a text file.
 This program takes a command line argument such as `texts/short.txt` indicating the text file it must read. It then takes a word as user input. The program then reads the entire text file to find the total number of occurrences of that word.
 
@@ -12,17 +12,11 @@ You have been provided with a few text files in the folder [texts](texts) which 
 
 ## Usage
 
-- Visit [java-tutorial/README/Usage](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork the problem program and solve it.
+- Fork this repository and solve it. Visit [java-tutorial/README/Usage](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork the problem program and solve it.
 
-## Example
+## How to solve?
 
-In the text file [longer.txt](https://github.com/geekygiganerd/Find-Word/blob/main/texts/longer.txt) the word **Mary** occurs 2 times.
 
-![find-word-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/27979515-8536-4d9d-8c8a-ba9965f0e095)
-
-So, upon executing the program and finding the word **Mary** in `texts/short.txt` the output in the terminal must be 2.
-
-![word-search-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/45d10e41-4927-4dd5-b025-900f18344935)
 
 ## How to execute the program?
 
@@ -41,9 +35,15 @@ Enter a word to search for: **the**
 The word `the` appears 5 times in texts/short.txt.
 ```
 
-## How to solve?
+## Example
 
+In the text file [longer.txt](https://github.com/geekygiganerd/Find-Word/blob/main/texts/longer.txt) the word **Mary** occurs 2 times.
 
+![find-word-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/27979515-8536-4d9d-8c8a-ba9965f0e095)
+
+So, upon executing the program and finding the word **Mary** in `texts/short.txt` the output in the terminal must be 2.
+
+![word-search-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/45d10e41-4927-4dd5-b025-900f18344935)
 
 ## Solution
 
