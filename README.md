@@ -29,9 +29,9 @@ So, the program must output 2 as the occurrences for the word 'Mary' in [longer.
 
 ## Usage
 
-Fork this repository and write your own source code to solve this problem.
+Fork this repository to create a copy in your GitHub account and write your own source code to solve this problem.
 
-Visit [this link](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork this program to create a copy in your GitHub account and create a codespace to write your code.
+Visit [this link](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork this repository and create a codespace to write your code.
 
 ## How to solve?
 
