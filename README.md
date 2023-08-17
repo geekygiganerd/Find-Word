@@ -39,7 +39,7 @@ The entire process can be broken down into 4 simple steps:
 - [Input the path to text file and the word to be searched](###input)
 - [Scan each line from the text file](###scan)
 - [Count the occurrences of the word in each line](###count)
-- [Display the output](###Display)
+- [Display](###Display)
 
 There are 3 methods in the program:
 - void main(String args[])
