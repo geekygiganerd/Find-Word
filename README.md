@@ -10,7 +10,7 @@ This program takes a command line argument such as `texts/short.txt` indicating 
 
 ## Usage
 
-- Visit [java-tutoria/README]([https://github.com/its-triple-s/java-tutorial/blob/main/README.md](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork problem programs to solve.
+- Visit [java-tutoria/README](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork problem programs to solve.
 
 ## Example
 
