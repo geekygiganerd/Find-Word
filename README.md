@@ -41,7 +41,7 @@ Visit [this link](https://github.com/its-triple-s/java-tutorial#usage) to learn 
 
 1. After you have completed your source code in **FindWord.java**, open the terminal in your codespace by pressing the shortcut **Ctrl + `**
 
-2. In the terminal, navigate to the directory `Find-Word/` and type `ls` to list the contents in the directory.
+2. In the terminal, navigate to the directory `Find-Word/` and type `ls` to list the contents of the directory.
 
 ![ls](https://github.com/geekygiganerd/Find-Word/assets/128626253/92cd0495-3a81-4e15-9b27-2329e9a798ee)
 
