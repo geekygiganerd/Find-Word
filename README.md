@@ -23,7 +23,7 @@ In the text file [longer.txt](https://github.com/geekygiganerd/Find-Word/blob/ma
 
 ![find-word-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/27979515-8536-4d9d-8c8a-ba9965f0e095)
 
-So, upon executing the program and finding the word 'Mary' in [longer.txt](https://github.com/geekygiganerd/Find-Word/blob/main/texts/longer.txt) the output in the terminal must be 2.
+So, the program must output 2 as the occurrences for the word 'Mary' in [longer.txt](https://github.com/geekygiganerd/Find-Word/blob/main/texts/longer.txt).
 
 ![word-search-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/45d10e41-4927-4dd5-b025-900f18344935)
 
