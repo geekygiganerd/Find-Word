@@ -36,10 +36,10 @@ So, the program must output 2 as the occurrences for the word 'Mary' in [longer.
 ## How to solve?
 
 The entire process can be broken down into 4 simple steps:
-- [Input the path to text file and the word to be searched](###input)
-- [Scan each line from the text file](###scan)
-- [Count the occurrences of the word in each line](###count)
-- [Display](###Display)
+- [Input the path to text file and the word to be searched](#input)
+- [Scan each line from the text file](#scan)
+- [Count the occurrences of the word in each line](#count)
+- [Display the output](#Display)
 
 There are 3 methods in the program:
 - void main(String args[])
@@ -57,6 +57,9 @@ $ java FindWord texts/short.txt
 where `short.txt` is the text file in the folder `text`. Since the `main()` method accepts a String array named `args` as parameter, `texts/short.txt` is stored as the first element int the array, i.e. `args[0] = "texts/short,txt"`. The search-word must be entered by the user upon being prompted and stored in the variable `word`.
 
 ### Scan
+
+The next important step is to scan each line through the text
+
 ### Count
 ### Display
 
