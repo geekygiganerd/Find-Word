@@ -47,7 +47,7 @@ There are 3 methods in the program:
 - `int find(String word, String text)`
 - `void display(int occurences)`
 
-### Input
+### Input:
 
 The inputs are taken in the `main()` method. The path to the text file must be entered as the first command line argument during program execution. For example
 
@@ -59,7 +59,7 @@ Here `short.txt` is the text file in the folder `text`. Since the `main()` metho
 
 The search-word must be entered by the user upon being prompted and stored in the variable `word` using a Scanner object `scan`.
 
-### Scan
+### Scan:
 
 The next important step is to scan each line from the text file. This is done using a Scanner object `scan` created for the File object `textFile`.
 
@@ -69,7 +69,7 @@ Within the **while-loop** the [hasNextLine()](https://www.geeksforgeeks.org/scan
 
 This process is repeated using the loop to find the total number of times `word` appeared in `textfile`.
 
-### Count
+### Count:
 
 To count the number of times `word` appeared `text` the user-defined `find()` method is called by Reference (using the class object `obj`) in `main()` method. `find()` accepts two String arguments: the search-word and the line of text respectively.
 
@@ -92,8 +92,7 @@ tmp.equals(word)
 - You must empty `tmp`, i.e. set to null or blank after you encounter the end of a word.
 - The last character in `text` that has the index `lineLength - 1` (where `lineLength` is the length of `text`) may be a letter, in that case you should concatenate it to `tmp` as well as check if it matches with `word`.
 
-### Display
-
+### Display:
 Finally the main function should call the `display()` method (keep in mind it is a non-static method) to display `occurrences`. Within `display()` you should simply print `occurences` appropriately.
 
 You must understand the entire process correctly. The main() method is almost complete and you are not expected to change it much, your task is to:
