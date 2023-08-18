@@ -15,9 +15,9 @@ This problem has been designed to help learners develop the logic of:
 
 Find-Word works as a word searching tool for a text file, its nature is similar to the feature we often use in documents to find matching words by pressing **Ctrl + F**. The output of this program should be the total number of times a word has appeared (or occurred) in a text file.
 
-### Note:
+**Note:**
 
-- To make things less complex, this program shall only find the occurrences of one single word and not a sequence of words or a phrase.
+- To make things less complex, this program shall only find the occurrences of one single word (which doesn't contain any letter or symbol) and not a sequence of words or a phrase.
 
 - We are also assuming that the user enters the proper path to a text file as the first argument while executing the program.
 
@@ -54,7 +54,7 @@ The inputs are taken in the `main()` method. The path to the text file must be e
 $ java FindWord texts/short.txt
 ```
 
-Here `short.txt` is the text file in the folder `text`. Since the `main()` method accepts a String array named `args` as parameter, `texts/short.txt` is stored as the first element int the array, i.e. `args[0] = "texts/short,txt"`. This element is then used to create a File object named `textfile`.
+Here `short.txt` is the text file in the folder `text`. Since the `main()` method accepts a **String array** named `args` as parameter, `texts/short.txt` is stored as the first element int the array, i.e. `args[0] = "texts/short,txt"`. This element is then used to create a File object named `textfile`.
 
 The search-word must be entered by the user upon being prompted and stored in the variable `word` using a Scanner object `scan`.
 
@@ -62,7 +62,7 @@ The search-word must be entered by the user upon being prompted and stored in th
 
 The next important step is to scan each line from the text file. This is done using a Scanner object `scan` created for the File object `textFile`.
 
-Within the `[while-loop](https://www.w3schools.com/java/java_while_loop.asp)` the `hasNextLine()` method of the Scanner class is used to check if `scan` has another line, if so then the line is stored in a String variable `text`.
+Within the **while-loop** the [hasNextLine()](https://www.geeksforgeeks.org/scanner-hasnextline-method-in-java-with-examples/) method of the Scanner class is used to check if `scan` has another line, if so then the line is stored in a String variable `text`.
 
 `text` is searched through to find the occurrences of `word` using the user-defined `find()` method, which returns the count of occurrenes. This returned integer value is then added to the variable `occurrences` which was initially set to 0.
 
@@ -72,11 +72,28 @@ This process is repeated using the loop to find the total number of times `word`
 
 To count the number of times `word` appeared `text` the user-defined `find()` method is called by Reference (using the class object `obj`) in `main()` method. `find()` accepts two String arguments: the search-word and the line of text respectively.
 
-You must apply your logic in the `for-loop` to go through each word in `text` and count the number of times `word` has appeared in it. For this purpose you may have to extract each character from `text` and concatenate them to `tmp` a temporary variable created to temporarily store one word at a time from `text`. This can be done using the String function [charAt()](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html#charAt-int-)
+You must apply your logic in the **for-loop** to go through each word in `text` and count the number of times `word` has appeared in it. For this purpose you may have to extract each character from `text` and concatenate them to `tmp` a temporary variable created to temporarily store one word at a time from `text`. This can be done using the String function [charAt()](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html#charAt-int-).
+
+When you want to concatenate an extracted character you may want to check if its a letter, for this purpose you may use the character function [isLetter()](https://www.javatpoint.com/post/java-character-isletter-method)
+
+```
+Character.isLetter(ch)
+```
+
+If the extracted character is not a letter it indicates the end of a word, so you should check if the extracted word `tmp` and `word` are the same. For this purpose you may use the **String** method [equals()](https://www.w3schools.com/java/ref_string_equals.asp) such as
+
+```
+tmp.equals(word)
+```
+
+**Note:**
+
+- You must empty `tmp`, i.e. set to null or blank after you encounter the end of a word.
+- The last character in `text` that has the index `lineLength - 1` (where `lineLength` is the length of `text`) may be a letter, in that case you should concatenate it to `tmp` as well as check if it matches with `word`.
 
 ### Display
 
-
+Finally the main function should call the `display()` method (keep in mind it is a non-static method) to display `occurrences`. Within `display()` you should simply print `occurences` appropriately.
 
 You must understand the entire process correctly. The main() method is almost complete and you are not expected to change it much, your task is to:
 
