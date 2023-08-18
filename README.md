@@ -7,7 +7,8 @@ This program takes a command line argument such as `texts/short.txt` indicating 
 
 This problem has been designed to help learners develop the logic of:
 - how to skim through Strings
-- use Scanner class to scan File objects
+- incorporate various String and char functions
+- use Scanner and File objects
 - implement Call by Reference
 - utilize command line arguments
 
@@ -74,7 +75,7 @@ To count the number of times `word` appeared `text` the user-defined `find()` me
 
 You must apply your logic in the **for-loop** to go through each word in `text` and count the number of times `word` has appeared in it. For this purpose you may have to extract each character from `text` and concatenate them to `tmp` a temporary variable created to temporarily store one word at a time from `text`. This can be done using the String function [charAt()](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html#charAt-int-).
 
-When you want to concatenate an extracted character you may want to check if its a letter, for this purpose you may use the character function [isLetter()](https://www.javatpoint.com/post/java-character-isletter-method)
+When you want to concatenate an extracted character you may want to check if its a letter, for this purpose you may use the char function [isLetter()](https://www.javatpoint.com/post/java-character-isletter-method)
 
 ```
 Character.isLetter(ch)
