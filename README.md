@@ -93,6 +93,7 @@ tmp.equals(word)
 - The last character in `text` that has the index `lineLength - 1` (where `lineLength` is the length of `text`) may be a letter, in that case you should concatenate it to `tmp` as well as check if it matches with `word`.
 
 ### Display:
+
 Finally the main function should call the `display()` method (keep in mind it is a non-static method) to display `occurrences`. Within `display()` you should simply print `occurences` appropriately.
 
 You must understand the entire process correctly. The main() method is almost complete and you are not expected to change it much, your task is to:
