@@ -96,7 +96,7 @@ tmp.equals(word)
 
 Finally the main function should call the `display()` method (keep in mind it is a non-static method) to display `occurrences`. Within `display()` you should simply print `occurences` appropriately.
 
-You must understand the entire process correctly. The main() method is almost complete and you are not expected to change it much, your task is to:
+You must understand the entire process correctly. The `main()` method is almost complete and you are not expected to change it much, your task is to:
 
 - complete the TODOs in `FindWord.java` and fill up all the `//...`
 - implement your logic in `find()` method to find the total number of times the `word` has appeared in each line of text
@@ -145,6 +145,14 @@ The output for occurrences of the word 'Mary' in [longer.txt](https://github.com
 ## Outputs
 
 Below is a list of correct outputs for other text files and words. Your program must produce the same results to be correct.
+
+![short-find](https://github.com/geekygiganerd/Find-Word/assets/128626253/3e40eb61-8055-4d28-9d9f-8f51115eeba4)
+
+![shorter-find](https://github.com/geekygiganerd/Find-Word/assets/128626253/e91fc9b9-4063-4373-8179-811890f81c85)
+
+You may also create new text files to check and try other words. You can also verify if your outputs are correct by searching for the word in the text file by pressing **Ctrl + F**
+
+![short-search](https://github.com/geekygiganerd/Find-Word/assets/128626253/be0ebc46-ddd8-43be-bfe2-14944bb1bebc)
 
 ## Solution
 
