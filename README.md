@@ -157,7 +157,7 @@ You may also create new text files to check and try other words. You can also ve
 ## Solution
 
 It is advised to first try and solve this problem on your own before viewing the solution.
-You will find the solution to this problem [here](https://github.com/its-triple-s/java-tutorial/blob/main/solutions/Find-Word/FindWord.java).
+You will find the solution to this problem [here](https://github.com/its-triple-s/java-tutorial/tree/main/solutions/Find-Word).
 
 ## License
 
@@ -165,7 +165,7 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ## Contribution
 
-If you wish to make improvements to this problem, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted [here](https://github.com/its-triple-s/java-tutorial/tree/main/solutions/Find-Word)
+If you wish to make improvements to this problem, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted [here](https://github.com/its-triple-s/java-tutorial)
 
 ## Author
 
