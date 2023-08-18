@@ -8,7 +8,7 @@ This program takes a command line argument such as `texts/short.txt` indicating 
 This problem has been designed to help learners develop the logic of:
 - how to skim through Strings
 - use Scanner class to scan File objects
-- implement call by reference
+- implement Call by Reference
 - utilize command line arguments
 
 ## Description
@@ -33,7 +33,7 @@ So, the program must output 2 as the occurrences for the word 'Mary' in [longer.
 
 ![word-search-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/45d10e41-4927-4dd5-b025-900f18344935)
 
-## How to solve?
+## How to solve? 
 
 The entire process can be broken down into 4 simple steps:
 - [Input the path to text file and the word to be searched](#input)
@@ -42,9 +42,9 @@ The entire process can be broken down into 4 simple steps:
 - [Display the output](#Display)
 
 There are 3 methods in the program:
-- void main(String args[])
-- int find(String word, String text)
-- void display(int occurences)
+- `void main(String args[])`
+- `int find(String word, String text)`
+- `void display(int occurences)`
 
 ### Input
 
@@ -54,16 +54,35 @@ The inputs are taken in the `main()` method. The path to the text file must be e
 $ java FindWord texts/short.txt
 ```
 
-where `short.txt` is the text file in the folder `text`. Since the `main()` method accepts a String array named `args` as parameter, `texts/short.txt` is stored as the first element int the array, i.e. `args[0] = "texts/short,txt"`. The search-word must be entered by the user upon being prompted and stored in the variable `word`.
+Here `short.txt` is the text file in the folder `text`. Since the `main()` method accepts a String array named `args` as parameter, `texts/short.txt` is stored as the first element int the array, i.e. `args[0] = "texts/short,txt"`. This element is then used to create a File object named `textfile`.
+
+The search-word must be entered by the user upon being prompted and stored in the variable `word` using a Scanner object `scan`.
 
 ### Scan
 
-The next important step is to scan each line through the text
+The next important step is to scan each line from the text file. This is done using a Scanner object `scan` created for the File object `textFile`.
+
+Within the `[while-loop](https://www.w3schools.com/java/java_while_loop.asp)` the `hasNextLine()` method of the Scanner class is used to check if `scan` has another line, if so then the line is stored in a String variable `text`.
+
+`text` is searched through to find the occurrences of `word` using the user-defined `find()` method, which returns the count of occurrenes. This returned integer value is then added to the variable `occurrences` which was initially set to 0.
+
+This process is repeated using the loop to find the total number of times `word` appeared in `textfile`.
 
 ### Count
+
+To count the number of times `word` appeared `text` the user-defined `find()` method is called by Reference (using the class object `obj`) in `main()` method. `find()` accepts two String arguments: the search-word and the line of text respectively.
+
+You must apply your logic in the `for-loop` to go through each word in `text` and count the number of times `word` has appeared in it. For this purpose you may have to extract each character from `text` and concatenate them to `tmp` a temporary variable created to temporarily store one word at a time from `text`. This can be done using the String function [charAt()](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html#charAt-int-)
+
 ### Display
 
-You must complete the TODOs in `FindWord.java` and fill up all the `//...`. The main() function is almost complete, you must implement your logic in `find()` method to find the total number of times the `word` has appeared in each line of text and also complete the `display()` method.
+
+
+You must understand the entire process correctly. The main() method is almost complete and you are not expected to change it much, your task is to:
+
+- complete the TODOs in `FindWord.java` and fill up all the `//...`
+- implement your logic in `find()` method to find the total number of times the `word` has appeared in each line of text
+- complete the `display()` method.
 
 ## Usage
 
@@ -120,7 +139,7 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ## Contribution
 
-If you wish to make improvements to the problem of this repository, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted in [here](https://github.com/its-triple-s/java-tutorial/tree/main/solutions/Find-Word)
+If you wish to make improvements to this problem, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted [here](https://github.com/its-triple-s/java-tutorial/tree/main/solutions/Find-Word)
 
 ## Author
 
