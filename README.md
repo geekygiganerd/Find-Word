@@ -31,7 +31,7 @@ Find-Word works as a word searching tool for a text file, its nature is similar 
 
 **Note:**
 
-- To make things less complex, this program shall only find the occurrences of one single word (which doesn't contain any letter or symbol) and not a sequence of words or a phrase.
+- To make things less complex, this program shall only find the occurrences of one single word (which doesn't contain any digit or symbol) and not a sequence of words or a phrase.
 
 - We are also assuming that the user enters the proper path to a text file as the first argument while executing the program.
 
