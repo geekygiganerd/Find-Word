@@ -16,9 +16,9 @@ This problem has been designed to help learners develop the logic of:
 
 - [Description](#description)
 - [Example](#example)
-- [How-to-solve?](#how-to-solve?)
+- [How-to-solve?](#how-to-solve)
 - [Usage](#usage)
-- [How-to-run?](#how-to-run?)
+- [How-to-run?](#how-to-run)
 - [Outputs](#outputs)
 - [Solution](#solution)
 - [License](#license)
