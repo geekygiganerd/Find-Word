@@ -102,7 +102,7 @@ tmp.equals(word)
 
 **Note:**
 
-- You must empty `tmp`, i.e. set to null or blank after you encounter the end of a word.
+- You must empty `tmp`, i.e. set it to null or blank after you encounter the end of a word.
 - The last character in `text` that has the index `lineLength - 1` (where `lineLength` is the length of `text`) may be a letter, in that case you should concatenate it to `tmp` as well as check if it matches with `word`.
 
 ### Display:
