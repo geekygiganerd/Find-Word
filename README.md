@@ -1,4 +1,4 @@
-#Find-Word
+# Find-Word
 
 Find-Word is a problem from the [java-tutorial](https://github.com/its-triple-s/java-tutorial) created by [@its-triple-s](https://github.com/its-triple-s).
 
@@ -12,7 +12,7 @@ This problem has been designed to help learners develop the logic of:
 - implement Call by Reference
 - utilize command line arguments
 
-##Table of Contents
+## Table of Contents
 
 - [Description](#description)
 - [Example](#example)
@@ -25,7 +25,7 @@ This problem has been designed to help learners develop the logic of:
 - [Contribution](#contribution)
 - [Author](#author)
 
-##Description
+## Description
 
 Find-Word works as a word searching tool for a text file, its nature is similar to the feature we often use in documents to find matching words by pressing **Ctrl + F**. The output of this program should be the total number of times a word has appeared (or occurred) in a text file.
 
@@ -37,7 +37,7 @@ Find-Word works as a word searching tool for a text file, its nature is similar 
 
 You have been provided with a few text files in the folder [texts](texts) which are to be used during the execution of a program.
 
-##Example
+## Example
 
 In the text file [longer.txt](https://github.com/geekygiganerd/Find-Word/blob/main/texts/longer.txt) the word 'Mary' occurs 2 times.
 
@@ -47,7 +47,7 @@ So, the program must output 2 as the occurrences for the word 'Mary' in [longer.
 
 ![word-search-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/45d10e41-4927-4dd5-b025-900f18344935)
 
-##How-to-solve? 
+## How-to-solve? 
 
 The entire process can be broken down into 4 simple steps:
 - [Input the path to text file and the word to be searched](#input)
@@ -60,7 +60,7 @@ There are 3 methods in the program:
 - `int find(String word, String text)`
 - `void display(int occurences)`
 
-###Input:
+### Input:
 
 The inputs are taken in the `main()` method. The path to the text file must be entered as the first command line argument during program execution. For example
 
@@ -72,7 +72,7 @@ Here `short.txt` is the text file in the folder `text`. Since the `main()` metho
 
 The search-word must be entered by the user upon being prompted and stored in the variable `word` using a Scanner object `scan`.
 
-###Scan:
+### Scan:
 
 The next important step is to scan each line from the text file. This is done using a Scanner object `scan` created for the File object `textFile`.
 
@@ -82,7 +82,7 @@ Within the **while-loop** the [hasNextLine()](https://www.geeksforgeeks.org/scan
 
 This process is repeated using the loop to find the total number of times `word` appeared in `textfile`.
 
-###Count:
+### Count:
 
 To count the number of times `word` appeared `text` the user-defined `find()` method is called by Reference (using the class object `obj`) in `main()` method. `find()` accepts two String arguments: the search-word and the line of text respectively.
 
@@ -105,7 +105,7 @@ tmp.equals(word)
 - You must empty `tmp`, i.e. set to null or blank after you encounter the end of a word.
 - The last character in `text` that has the index `lineLength - 1` (where `lineLength` is the length of `text`) may be a letter, in that case you should concatenate it to `tmp` as well as check if it matches with `word`.
 
-###Display:
+### Display:
 
 Finally the main function should call the `display()` method (keep in mind it is a non-static method) to display `occurrences`. Within `display()` you should simply print `occurences` appropriately.
 
@@ -115,13 +115,13 @@ You must understand the entire process correctly. The `main()` method is almost 
 - implement your logic in `find()` method to find the total number of times the `word` has appeared in each line of text
 - complete the `display()` method.
 
-##Usage
+## Usage
 
 Fork this repository to create a copy in your GitHub account and write your own source code to solve this problem.
 
 Visit [this link](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork this repository and create a codespace to write your code.
 
-##How-to-run?
+## How-to-run?
 
 1. After you have completed your source code in **FindWord.java**, open the terminal in your codespace by pressing the shortcut **Ctrl + `**
 
@@ -155,7 +155,7 @@ The output for occurrences of the word 'Mary' in [longer.txt](https://github.com
 
 ![word-search-longer](https://github.com/geekygiganerd/Find-Word/assets/128626253/a9373c0e-2f60-46a0-a9a4-b19cd2a5225a)
 
-##Outputs
+## Outputs
 
 Below is a list of correct outputs for other text files and words. Your program must produce the same results to be correct.
 
@@ -167,19 +167,19 @@ You may also create new text files to check and try other words. You can also ve
 
 ![short-search](https://github.com/geekygiganerd/Find-Word/assets/128626253/be0ebc46-ddd8-43be-bfe2-14944bb1bebc)
 
-##Solution
+## Solution
 
 It is advised to first try and solve this problem on your own before viewing the solution.
 You will find the solution to this problem [here](https://github.com/its-triple-s/java-tutorial/tree/main/solutions/Find-Word).
 
-##License
+## License
 
 This repository is licensed under the [MIT License](LICENSE).
 
-##Contribution
+## Contribution
 
 If you wish to make improvements to this problem, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted [here](https://github.com/its-triple-s/java-tutorial)
 
-##Author
+## Author
 
 [Sk. Sameer Salam (@its-triple-s)](https://github.com/its-triple-s)
