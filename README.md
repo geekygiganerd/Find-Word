@@ -84,7 +84,7 @@ This process is repeated using the loop to find the total number of times `word`
 
 ### Count:
 
-To count the number of times `word` appeared `text` the user-defined `find()` method is called by Reference (using the class object `obj`) in `main()` method. `find()` accepts two String arguments: the search-word and the line of text respectively.
+To count the number of times `word` has appeared in `text`, the user-defined `find()` method is called by Reference (using the class object `obj`) in `main()` method. `find()` accepts two String arguments: the search-word and the line of text respectively.
 
 You must apply your logic in the **for-loop** to go through each word in `text` and count the number of times `word` has appeared in it. For this purpose you may have to extract each character from `text` and concatenate them to `tmp` a temporary variable created to temporarily store one word at a time from `text`. This can be done using the String function [charAt()](https://docs.oracle.com/javase/8/docs/api/java/lang/CharSequence.html#charAt-int-).
 
