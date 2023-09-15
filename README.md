@@ -1,6 +1,6 @@
 # Find-Word
 
-Find-Word is a problem from the [java-tutorial](https://github.com/its-triple-s/java-tutorial) created by [@its-triple-s](https://github.com/its-triple-s).
+Find-Word is a problem from the [java-tutorial](https://github.com/sksameersalam/java-tutorial) created by [@sksameersalam](https://github.com/sksameersalam).
 
 This java program finds the total number of times a word has appeared in a text file.
 This program takes a command line argument such as `texts/short.txt` indicating the text file it must read. It then takes a word as user input. The program then reads the entire text file to find the total number of occurrences of that word.
@@ -119,7 +119,7 @@ You must understand the entire process correctly. The `main()` method is almost 
 
 Fork this repository to create a copy in your GitHub account and write your own source code to solve this problem.
 
-Visit [this link](https://github.com/its-triple-s/java-tutorial#usage) to learn how to fork this repository and create a codespace to write your code.
+Visit [this link](https://github.com/sksameersalam/java-tutorial#usage) to learn how to fork this repository and create a codespace to write your code.
 
 ## How-to-run?
 
@@ -170,7 +170,7 @@ You may also create new text files to check and try other words. You can also ve
 ## Solution
 
 It is advised to first try and solve this problem on your own before viewing the solution.
-You will find the solution to this problem [here](https://github.com/its-triple-s/java-tutorial/tree/main/solutions/Find-Word).
+You will find the solution to this problem [here](https://github.com/sksameersalam/java-tutorial/tree/main/solutions/Find-Word).
 
 ## License
 
@@ -178,8 +178,8 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ## Contribution
 
-If you wish to make improvements to this problem, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted [here](https://github.com/its-triple-s/java-tutorial)
+If you wish to make improvements to this problem, you are welcomed. Fork this repository, make changes and send a pull request. Pull requests for solutions are accepted [here](https://github.com/sksameersalam/java-tutorial)
 
 ## Author
 
-[Sk. Sameer Salam (@its-triple-s)](https://github.com/its-triple-s)
+[Sk. Sameer Salam (@its-triple-s)](https://github.com/sksameersalam)
