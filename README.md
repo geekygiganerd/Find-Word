@@ -182,4 +182,4 @@ If you wish to make improvements to this problem, you are welcomed. Fork this re
 
 ## Author
 
-[Sk. Sameer Salam (@its-triple-s)](https://github.com/sksameersalam)
+[Sk. Sameer Salam (@sksameersalam)](https://github.com/sksameersalam)
